@@ -3,7 +3,7 @@ package main
 import ("log"; "net")
 
 func main() {
-   ln, err := net.Listen("tcp", ":6000")
+    ln, err := net.Listen("tcp", ":6000")
     if err != nil {
         log.Fatal(err)
     }
